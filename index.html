@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="head-of-form">
+            <h1 class="heading">
+                contact form
+            </h1>
+            <p class="contact-form-para">Please fill in your informationand we will be sendind your order in on time</p>
+        </div>
+
+
+
+
+        <div class="form-container"id=>
+            <form action="action_page.js" autocomplete="on" method="GET" >
+                <div class="first-line">
+                    <label for="name">Your Name*</label>
+                    <input type="text" name="name" placeholder="First Name" class="fname-float" required >
+                    <input type="text" name="name" placeholder="Last Name" class="lname">
+                </div>
+
+                <div class="second-line">
+                    <label for="email">Your Email*</label>
+                    <input type="email" required placeholder="Email" class="email">
+                </div>
+
+                <div >
+
+                    <label for="phone" placeholder="####">Phone*</label>
+                    <input type="pohne" class="phone-float" name="phnoe" required>
+                    <input type="pohne" id="phnoe" class="lname" name="phnoe">
+                </div>
+
+                <div class=id=>
+                    <label for="subject">Message Subject*</label>
+                    <select name="subject" id="subject">
+                        <option value="other">other</option>
+                        <option value="Math">Math</option>
+                        <option value="Hindi">Hindi</option>
+                        <option value="English">English</option>
+                        <option value="Science">Science</option>
+                        <option value="Social-Studies">Social-Studies</option>
+
+                    </select>
+                </div>
+                <div class=id=>
+                    <label for="message">Message</label>
+                    <textarea class="lname" name="message" id="message" cols="43" rows="3"></textarea>
+                </div>
+
+                <div class=id=>
+                    <label for="verification">Verification*</label>
+                    <input type="verificaton" required>
+                </div>
+                <div class=   id= > 
+                    <hr>
+                </div>
+                <div class=   id= > 
+                <button class="button" type="submit">submit form</button>
+
+                </div>
+
+
+
+              
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
