@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nevbar</title>
+    <style>
+        ul {
+
+            list-style: none;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 190px;
+            background-color: #f1f1f1;
+            border: 1px solid black;
+
+        }
+
+        li a {
+            color: black;
+            display: block;
+            padding: 8px 16px;
+            text-decoration: none;
+            
+
+        }
+
+        li a:hover:not(.active) {
+
+            background-color: #555;
+            color: white;
+
+        }
+
+        li a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+        li{
+            border-bottom: 1px solid black;
+
+        }
+        li:last-child {
+
+            border-bottom: none;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <ul>
+        <li> <a class="active" href="#">About</a> </li>
+        <li> <a href="#">Home</a></li>
+        <li> <a href="#">Product</a> </li>
+        <li> <a href="#">News</a></li>
+        <li> <a href="#">Contact us</a> </li>
+
+    </ul>
+
+</body>
+
+</html>
